@@ -16,7 +16,7 @@ const file = fs.readFileSync('./data.json', {encoding: 'utf8'});
 console.log(color.red(file));
 
 //An ASync File Access  mode <-Good
-fs.readFile('./data.json', {encoding: 'utf8'}, (err, f) => console.log(color.gree(f)));
+fs.readFile('./data.json', {encoding: 'utf8'}, (err, f) => console.log(color.green(f)));
 
 request('https://jsonplaceholder.typicode.com/posts', (err, resp, body) => {
  const parsed = JSON.parse(body);
