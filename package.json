@@ -1,6 +1,8 @@
 {
   "type": "module",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "console-log-colors": "^0.4.0",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
   }
 }
